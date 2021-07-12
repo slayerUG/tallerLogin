@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">project</string>
+    <string name="configuracion">configuracion</string>
+    <string name="contacto">contacto</string>
+    <string name="idioma">idioma</string>
+    <string name="salir">salir</string>
 </resources>

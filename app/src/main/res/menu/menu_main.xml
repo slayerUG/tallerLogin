@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="Mas"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/configuracion"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/configuracion">
+
+            <menu>
+                <item
+                    android:id="@+id/contacto"
+                    android:icon="@drawable/ic_baseline_perm_contact_calendar_24"
+                    android:title="@string/contacto"
+                    app:showAsAction="always" />
+
+                <item
+                    android:id="@+id/idioma"
+                    android:icon="@drawable/ic_baseline_fiber_smart_record_24"
+                    android:title="@string/idioma" />
+                <item
+                    android:id="@+id/acerca"
+                    android:icon="@drawable/ic_baseline_charging_station_24"
+                    android:title="Acerca de" />
+
+            </menu>
+            </item>
+
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="@string/salir" />
+        </menu>
+    </item>
+
+
+
+
+
+
+</menu>
