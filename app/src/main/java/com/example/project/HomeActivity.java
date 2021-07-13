@@ -39,9 +39,11 @@ public class HomeActivity extends AppCompatActivity {
             case R.id.idioma:
                 Toast.makeText(this, "SELECIONO IDIOMA", Toast.LENGTH_SHORT).show();
                 return true;
-            case R.id.acerca:
-                Toast.makeText(this, "SELECIONO Acerca", Toast.LENGTH_SHORT).show();
-                return true;
+            case R.id.acerca:{
+                Intent about = new Intent(this, AboutActivity.class);
+                startActivity(about);
+            }
+            return true;
             case R.id.salir:
                 startActivity(new Intent(this,LoginActivity.class));
                 finish();
